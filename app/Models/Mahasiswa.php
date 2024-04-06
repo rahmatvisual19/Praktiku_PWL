@@ -17,7 +17,3 @@ class Mahasiswa extends Model
         return $this->hasOne(Ktm::class, 'id_mahasiswa');
     }
 }
-
-
-//isi database yang berhubungan dengan dosen, boleh pake one to one atau one to many 
-//isi data dosen, minimal 4 data
